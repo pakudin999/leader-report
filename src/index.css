@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .win95-bg {
+    background-color: #c0c0c0;
+  }
+  .win95-border {
+    border: 2px solid;
+    border-color: #ffffff #808080 #808080 #ffffff;
+  }
+  .win95-border-inset {
+    border: 2px solid;
+    border-color: #808080 #ffffff #ffffff #808080;
+  }
+  .win95-titlebar {
+    background: #000080;
+    color: white;
+  }
+  .win95-input {
+    border: 2px inset #ffffff;
+    background: white;
+  }
+  .win95-btn {
+    background: #c0c0c0;
+    border: 2px solid;
+    border-color: #ffffff #808080 #808080 #ffffff;
+  }
+  .win95-btn:active {
+    border-color: #808080 #ffffff #ffffff #808080;
+  }
+}
+
+body {
+  background-color: #008080; /* Windows 95 desktop background color */
+  font-family: "MS Sans Serif", Arial, sans-serif;
+}

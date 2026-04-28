@@ -1,0 +1,6 @@
+{
+  "name": "AI Sales Bridge",
+  "description": "Retro Windows 95 style interface for submitting sales reports which get summarized by Gemini and sent via Telegram bot.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
